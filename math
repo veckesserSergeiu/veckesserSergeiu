@@ -1,0 +1,8 @@
+public class MyForm {
+    public static void main(String[] args) {
+        int z = 3;
+        int a = z * z * z;
+      int x = a % 10;
+        System.out.println(x);
+    }
+}
