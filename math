@@ -1,8 +1,7 @@
 public class MyForm {
     public static void main(String[] args) {
-        int z = 3;
-        int y = 3;
-        int x = (int) Math.pow(z, y);
+       int x = 3;
+        x = (int) Math.pow(x, 3);
         System.out.println(x % 10);
     }
 }
