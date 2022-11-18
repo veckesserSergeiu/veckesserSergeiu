@@ -39,9 +39,6 @@ int counter = 0;
                 + distanceFromClickToCenterOfBall_y*distanceFromClickToCenterOfBall_y) > 25
         ) {
             System.out.println("не попал");
-            ovalX = ovalX - 100;
-            ovalY = ovalY - 50;
-            counter = counter - 1;
          }
         else{
             System.out.println(distanceFromClickToCenterOfBall_x);
