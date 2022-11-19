@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class MyForm {
     public static void main(String[] args) {
-       int x = 3;
-        x = (int) Math.pow(x, 3);
-        System.out.println(x % 10);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter x:");
+        double x = scan.nextInt();
+        x = Math.pow(x, 3) / 10 % 7;
+        System.out.println(x);
     }
 }
